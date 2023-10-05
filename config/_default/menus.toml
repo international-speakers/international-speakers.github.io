@@ -1,0 +1,70 @@
+# main menu
+[[main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[main]]
+name = "About Us"
+url = "aboutus"
+weight = 2
+
+[[main]]
+name = "Join our meetings"
+url = "joinus"
+weight = 3
+
+
+[[main]]
+name = "Blog"
+url = "blog"
+weight = 4
+
+[[main]]
+name = "Testimonials"
+pre = "#"
+url = "testimonials"
+weight = 5
+
+[[main]]
+name = "Contact"
+url = "contact"
+weight = 6
+
+
+# footer menu left
+[[footer_left]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[footer_left]]
+name = "About Us"
+url = "aboutus"
+weight = 2
+
+
+# footer menu middle
+[[footer_middle]]
+name = "Join Us"
+url = "joinus"
+weight = 1
+
+[[footer_middle]]
+name = "Blog"
+url = "blog"
+weight = 2
+
+
+# footer menu right
+[[footer_right]]
+name = "Testimonials"
+url = "testimonials"
+
+
+[[footer_right]]
+name = "Contact"
+url = "contact"
+
+
+

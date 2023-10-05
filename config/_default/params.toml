@@ -1,0 +1,57 @@
+#################### default parameters ################################
+logo = "/images/logo.png"
+logo_width = "170px"
+# OpenGraph / Twitter Card metadata
+description = "We are a group of friendly locals and expats who are meeting every Monday to improve together communication, leadership and public speaking skills."
+author = "International Speakers"
+image = "/images/logo.png" # this image will be used as fallback if a page has no image of its own
+# contact form action
+contact_form_action = "" # contact form works with https://formspree.io
+
+# Type of pages to be rendered with a blog view
+blogCategoryType = "category"
+
+# Preloader
+[preloader]
+enable = false
+preloader = "/images/logo.png" # use jpg, png, svg or gif format.
+
+# Navigation buttons
+[navigation_button]
+enable = false
+label = "Join Us!"
+link = "joinus"
+
+# cookies
+[cookies]
+enable = false
+expire_days = 2
+content = "This site uses cookies. By continuing to use this website, you agree to their use."
+button = "I Accept"
+  
+############################# social site ########################
+[[social]]
+title = "facebook"
+icon = "fab fa-facebook" # themify icon : https://themify.me/themify-icons
+link = "https://www.facebook.com/internationalspeakers/"
+
+[[social]]
+title = "instagram"
+icon = "fab fa-instagram" # themify icon : https://themify.me/themify-icons
+link = "https://www.instagram.com/internationalspeakerslisbon/"
+
+[[social]]
+title = "linkedin"
+icon = "fab fa-linkedin" # themify icon : https://themify.me/themify-icons
+link = "https://www.linkedin.com/in/international-speakers-toastmasters-club/"
+
+[[social]]
+title = "youtube"
+icon = "fab fa-youtube" # themify icon : https://themify.me/themify-icons
+link = "http://www.youtube.com/channel/UCLmPJiRvnMeYv2tWlzFpvsA/playlists"
+
+
+
+
+
+
