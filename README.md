@@ -19,7 +19,7 @@ $ open _index.md
 ```
 ## Publish changes
 ```bash
-$ hugo -t bigspring-light
+$ hugo 
 
 $ cd ..
 
@@ -31,6 +31,6 @@ $ rm -r public/
 
 $ git add .
 
-$ git commit -am "change
+$ git commit -am "change"
 
 $ git push
