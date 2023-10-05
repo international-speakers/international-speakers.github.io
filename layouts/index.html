@@ -47,20 +47,6 @@
 {{ end }}
 <!-- /feature -->
 
-<!-- /testimonials -->
-{{ $data := index .Site.Data .Site.Language.Lang }} {{ if $data.homepage.testimonial.enable }}
-{{ with $data.homepage.testimonial }}
-{{ .title | markdownify }}
-{{ range .testimonial_item }}
-{{ .content | markdownify }}
-￼
-{{ .name }}
-{{ .designation }} 
-{{ end }} 
-{{ end }} 
-{{ end }}
-<!-- /testimonials -->
-
 
 <!-- service -->
 {{ with .Params.service }}
@@ -117,6 +103,35 @@
 {{ end }}
 {{ end }}
 <!-- /service -->
+
+<!-- testimonials -->
+{{ with .Params.testimonials }}
+{{ if .enable }}
+<section class="section bg-light">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 text-center">
+        <h2 class="section-title">{{ .title | markdownify }}</h2>
+      </div>
+      {{ range .testimonial_item }}
+      <div class="col-md-4 col-sm-6 mb-4">
+        <div class="testimonial-card text-center">
+          <img src="{{ .image | relURL }}" alt="{{ .name }}" class="img-fluid rounded-circle mb-3" width="100">
+          <h4 class="mb-2">{{ .name | title }}</h4>
+          <blockquote class="mb-4">
+            <p>{{ .content | markdownify }}</p>
+          </blockquote>
+          <p class="designation">{{ .designation }}</p>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /testimonials -->
+
 
 <!-- screenshot -->
 {{ with .Params.screenshot }}

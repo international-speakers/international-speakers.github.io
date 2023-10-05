@@ -2,7 +2,7 @@
 ####################### CALL TO ACTION #######################
 banner:
   title : "International Speakers"
-  image : "images/lisbon.png"
+  #image : "images/lisbon.png"
   content : "We are a group of friendly locals and expats who are meeting every Monday to improve together communication, leadership and public speaking skills."
   button:
     enable : true
@@ -53,10 +53,24 @@ feature:
       content : ""
         
 
+############################ LISBON ############################
+service:
+  enable : true
+  service_item:
+    # service item loop
+    - title : "Meet Us in Lisbon, Portugal"
+      images:
+      - "images/lisbon/lisbon1.png"
+      - "images/lisbon/lisbon2.png"
+      - "images/lisbon/lisbon3.png"
+      content : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
+        
+
+
 ##################### TESTIMONIALS #####################
-testimonial:
+testimonials:
   enable: true
-  title: "Reviews"
+  title: "Testimonials"
   testimonial_item:
     # testimonial item loop
     - name: "Duck 1"

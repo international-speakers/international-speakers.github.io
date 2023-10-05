@@ -2,7 +2,7 @@
 title: "Post 2"
 date: 2023-09-05T11:05:21+06:00
 # post image
-image: "images/blog/lisbon2.png"
+image: "images/lisbon/lisbon2.png"
 # post type (regular/featured)
 type: "featured"
 # meta description

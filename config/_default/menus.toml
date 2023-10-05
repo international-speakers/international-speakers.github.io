@@ -22,8 +22,7 @@ weight = 4
 
 [[main]]
 name = "Testimonials"
-pre = "#"
-url = "testimonials"
+url = "#testimonials"
 weight = 5
 
 [[main]]
@@ -59,7 +58,7 @@ weight = 2
 # footer menu right
 [[footer_right]]
 name = "Testimonials"
-url = "testimonials"
+url = "#testimonials"
 
 
 [[footer_right]]
