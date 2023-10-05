@@ -1,5 +1,5 @@
 ## README
-![INTERNATIONALSPEAKERS LOGO]()
+![INTERNATIONALSPEAKERS LOGO](https://github.com/international-speakers/internationalspeakers.github.io/blob/main/static/images/logo.png)
 
 Website of the International Speakers Toastmasters Club. Created with [Hugo](https://gohugo.io/) from the [Bigspring theme](https://github.com/themefisher/bigspring-light).
 

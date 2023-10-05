@@ -47,6 +47,21 @@
 {{ end }}
 <!-- /feature -->
 
+<!-- /testimonials -->
+{{ $data := index .Site.Data .Site.Language.Lang }} {{ if $data.homepage.testimonial.enable }}
+{{ with $data.homepage.testimonial }}
+{{ .title | markdownify }}
+{{ range .testimonial_item }}
+{{ .content | markdownify }}
+￼
+{{ .name }}
+{{ .designation }} 
+{{ end }} 
+{{ end }} 
+{{ end }}
+<!-- /testimonials -->
+
+
 <!-- service -->
 {{ with .Params.service }}
 {{ if .enable }}
